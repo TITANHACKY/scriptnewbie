@@ -1,0 +1,57 @@
+.nav-link.active {
+    font-family: 'Marko One' ;
+}
+.col-md-4 {
+    font-family: 'Artifika';
+    width: 25%;
+}
+p{
+    font-family: 'Averia Serif Libre';
+    font-size: 16px;
+}
+.thumbnail {
+    text-align: center;
+    border: 1px solid;
+    background-color:snow;
+    font-size: 14px;
+}
+.navbar-brand {
+    font-family: 'Merienda One';
+}
+.navbar-brand span{
+    color: blue;
+}
+.col-sm-8 h2{
+    text-align: center;
+    font-family: 'Marko One';
+}
+.description{
+    font-size: 15px;
+    text-align: end;
+}
+h5, h6{
+    text-align: start;
+    font-family: 'Marko One';
+}
+.code {
+    text-align: center;
+}
+.full-code {
+    padding: 0px 15%
+}
+.list {
+    list-style: decimal;
+    font-size: 15px;
+    font-family: 'Marko One';
+}
+.margin-left {
+    margin-left: 16px;
+}
+.next-btn {
+    float: right;
+    color: white;
+}
+.previous-btn {
+    float: left;
+    color: white;
+}
