@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Telegram chat bot using python</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="/chatbot/stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Marko One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Averia Serif Libre' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
@@ -57,75 +57,33 @@
             <div class="thumbnail">
               <img src="/chatbot/images/telegram-botfather.jpg" alt="Lights" style="width:50%">
               <div class="caption">
-                <p>Bots are third-party applications that run inside Telegram. 
-                  Users can interact with bots by sending them messages, commands and inline requests. 
-                  You control your bots using HTTPS requests to our Bot API.</p>
-                <p>Original Bot Manual: <a href="https://core.telegram.org/bots/api">Bot Manual</a>.</p>
+                <p>Build a Telegram Chat Bot that resends everything what you send to it.</p>
+                <p><a href="/chatbot/chatbot.html">Build Now</a>.</p>
               </div>
             </div>
-            <!-- <ul class="nav nav-pills flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Active</a>
-              </li>   
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-            <hr class="d-sm-none"> -->
+            
           </div>
           <div class="col-sm-8">
-            <h2>Telegram Chat Bot using Python</h2>
-            <h5 class="description">Dec 26, 2020</h5>
-            <h5>Some of the Important methods: </h5>
-            <ul class="list">
-              <li>getMe</li>
-              <li>getUpdates</li>
-              <li>sendMessage</li>
-            </ul>
-            <h6>getMe:</h6>
-            <p class="margin-left">A simple method for testing your bot's auth token.  
-              It returns the basic information about the bot in form of a User object.
+            <h2>Livegram Bot using Python</h2>
+            <h5 class="description">Dec 27, 2020</h5>
+            <p>In this article you'll learn how to build a bot like livegram bot.  
+              </p>
+            <h5>What is livegram bot? What is the features?</h5>
+            <p class='margin-left'>Livegram bot is a simple chat bot.  
+                It forwards the message from the user to the owner id means bot's owner and if the owner reply to any forwaded message then the bot will send that message to the replied user.
+                This is the purpose of livegram bot and it is simple.
             </p>
-            <p class="code"><code>https://api.telegram.org/bot&lt;token&gt;/getMe</code></p>
-            <p class="margin-left">You will get the basic information like bot id, bot firstname, lastname and username, etc.
+            <h5>How to build the bot?</h5>
+            <p class='margin-left'>Just think the logic. we should get the message from the user and forward it to the owner
+                and if the owner replied to any message we want to send the message to the replied user.
             </p>
-            <h6>getUpdates:</h6>
-            <p class="margin-left">Incoming updates in the bot is stored for 24 hours.  
-              You can get the Incoming updates using getUpdates method.  
-              You will get a json file as a result.
+            <p>If you know how to build a simple chat bot then it is easy. If you don't know then <a href="/chatbot/chatbot.html"> click here</a></p>
+            <p>Keep the stpes in my: 1)getting updates 2)forwarding messages from user to owner 3)getting updates form the owner what he is replying and for whom. 4)Sending message to the user.
             </p>
-            <p class="code"><code>https://api.telegram.org/bot&lt;token&gt;/getUpdates</code></p>
-            <p class="margin-left">Using the above method you will get some informations like message id, 
-              sender user id, username, firstname, lastname, message.  
-              If the user send a photo then you will get photo id, if it was a video then video id 
-              of if it is a docucment then document id.
-            </p>
-            <p class="margin-left">Before bot gets deleted, you can get your file using file id whenever in your lifetime. 
-              But the file id changes for every bot.
-            </p>
-            <h6>sendMessaage:</h6>
-            <p class="margin-left">This method is used to send message to the user.  
-              To send a message you need chat_id and the text.
-            </p>
-            <p class="code"><code>https://api.telegram.org/bot&lt;token&gt;/sendMessage?chat_id=&lt;chat_id&gt;&amp;text=&lt;text&gt;</code></p>
-            <p class="margin-left">To format the text you should use the parse_mode. 
-              You can use either markdown-style or HTML-style formatting..  
-              To use Formatting use parse_mode=Markdown or MarkdownV2 or html.
-            </p>
-            <p class="code"><code>https://api.telegram.org/bot&lt;token&gt;/sendMessage?chat_id=&lt;chat_id&gt;&amp;text=&lt;text&gt;&amp;parse_mode=&lt;style&gt;</code></p>
-            <div class="next-btn">
-              <a href="chatbot2.html" class="btn btn-primary" rel="noopener noreferrer">Next &raquo;</a>
-            </div>
-            <div class="previous-btn">
-              <a href="chatbot.html" class="btn btn-primary" rel="noopener noreferrer">&laquo; Back</a>
-          </div>
-
+            <iframe height="400px" width="100%" src="https://repl.it/@Poonkawin/livegrambot?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+            <p>Always don't run the script alone. Also try to understand it.</p>
+            <p>Join our telegram channel. <a href="https://t.me/ScriptNewbie">Click Here</a></p>
+            
 
 
             <br>
@@ -140,6 +98,7 @@
       
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

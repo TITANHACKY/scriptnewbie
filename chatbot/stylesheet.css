@@ -12,6 +12,7 @@ p{
 .thumbnail {
     text-align: center;
     border: 1px solid;
+    margin-bottom: 10px;
     background-color:snow;
     font-size: 14px;
 }
